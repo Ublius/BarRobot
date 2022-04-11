@@ -25,7 +25,7 @@ void loop() {
       case 'o': // Acutator Out
       digitalWrite(dir1PinA, LOW);
       digitalWrite(dir2PinA, HIGH);
-      Serial.println("Acutator Out"); // Prints out “Motor 1 Forward” on the serial monitor
+      Serial.println("Acutator Out"); // Prints out “Actuator” on the serial monitor
       Serial.println("   "); // Creates a blank line printed on the serial
       break;
 
